@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="805.6210" tests="25" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-05T00:06:55" tests="0" file="cypress\e2e\UI\Patients\Patient_search.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Patient list search" timestamp="2023-09-05T00:06:56" tests="25" time="805.6210" failures="0">
+    <testcase name="Patient list search Verify patient list with last name and  first name" time="39.4030" classname="Verify patient list with last name and  first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with last name and  first name and patient id" time="28.5120" classname="Verify patient list with last name and  first name and patient id">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with last name and DOB and patient id" time="27.6640" classname="Verify patient list with last name and DOB and patient id">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with last name and DOB" time="34.7030" classname="Verify patient list with last name and DOB">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with last name" time="27.0320" classname="Verify patient list with last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with not exist last name" time="34.4530" classname="Verify patient list with not exist last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with first name and last name" time="27.5120" classname="Verify patient list with first name and last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with first name and last name and patient id" time="32.2280" classname="Verify patient list with first name and last name and patient id">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with first name and DOB and patient id" time="37.7500" classname="Verify patient list with first name and DOB and patient id">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with first name and DOB" time="38.1120" classname="Verify patient list with first name and DOB">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with first name" time="36.9970" classname="Verify patient list with first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with not exist first name" time="28.6730" classname="Verify patient list with not exist first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with DOB and last name" time="37.1920" classname="Verify patient list with DOB and last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with DOB and first name" time="41.6310" classname="Verify patient list with DOB and first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with DOB and last name and first name" time="36.4290" classname="Verify patient list with DOB and last name and first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with DOB and patient id" time="35.0840" classname="Verify patient list with DOB and patient id">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with DOB and cell phone" time="31.8740" classname="Verify patient list with DOB and cell phone">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with patient id and last name" time="29.6310" classname="Verify patient list with patient id and last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with patient id and first name" time="28.2460" classname="Verify patient list with patient id and first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with patient id and DOB" time="25.9310" classname="Verify patient list with patient id and DOB">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with patient id and cell phone" time="29.5680" classname="Verify patient list with patient id and cell phone">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with cell phone and last name" time="24.1730" classname="Verify patient list with cell phone and last name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with cell phone and first name" time="28.8920" classname="Verify patient list with cell phone and first name">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with cell phone and DOB" time="34.3620" classname="Verify patient list with cell phone and DOB">
+    </testcase>
+    <testcase name="Patient list search Verify patient list with cell phone and patient id" time="29.5690" classname="Verify patient list with cell phone and patient id">
+    </testcase>
+  </testsuite>
+</testsuites>

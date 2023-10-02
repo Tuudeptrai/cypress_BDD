@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="114.5290" tests="18" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-06-25T02:39:35" tests="0" file="cypress\e2e\UI\Apointments\Filter.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Filter Popup" timestamp="2023-06-25T02:39:35" tests="18" time="114.5290" failures="2">
+    <testcase name="Filter Popup Filter button" time="6.6860" classname="Filter button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - close button" time="4.8080" classname="Filter popup - close button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Facilities collapse button" time="5.4560" classname="Filter popup - Facilities collapse button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Visit Length collapse button" time="3.8150" classname="Filter popup - Visit Length collapse button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Date collapse button" time="4.7630" classname="Filter popup - Date collapse button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Reset all button" time="7.3620" classname="Filter popup - Reset all button">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - select one facility" time="0.0000" classname="Filter popup - select one facility">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#mat-input-6`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#mat-input-6`, but never found it.
+    at Context.eval (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:15333:12)
+    at Registry.runStepDefininition (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:13256:48)
+    at Object.fn (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:14153:41)
+    at runStepWithLogGroup (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:13862:36)
+    at Context.eval (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:14150:60)]]></failure>
+    </testcase>
+    <testcase name="Filter Popup Filter popup -  select two facility" time="6.5090" classname="Filter popup -  select two facility">
+    </testcase>
+    <testcase name="Filter Popup Filter popup -  select all facility" time="8.6100" classname="Filter popup -  select all facility">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - do not select any facility" time="6.4230" classname="Filter popup - do not select any facility">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Visit Length select 1 hour option" time="4.5170" classname="Filter popup - Visit Length select 1 hour option">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Visit Length select 30 minutes option" time="6.4810" classname="Filter popup - Visit Length select 30 minutes option">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Visit Length select 15 minutes option" time="0.0000" classname="Filter popup - Visit Length select 15 minutes option">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.//*[contains(text(),&quot;15 minutes&quot;)]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.//*[contains(text(),"15 minutes")]`, but never found it.
+    at Context.eval (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:15397:12)
+    at Registry.runStepDefininition (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:13256:48)
+    at Object.fn (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:14153:41)
+    at runStepWithLogGroup (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:13862:36)
+    at Context.eval (https://billings.dev.appsensesolutions.com/__cypress/tests?p=cypress\e2e\UI\Apointments\Filter.feature:14150:60)]]></failure>
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Select 2 options: 1 hour and 30 minutes" time="7.3230" classname="Filter popup - Select 2 options: 1 hour and 30 minutes">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Select 2 options: 1 hour and 15 minutes" time="8.2400" classname="Filter popup - Select 2 options: 1 hour and 15 minutes">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Select 2 options: 30 minutes and 15 minutes" time="9.1500" classname="Filter popup - Select 2 options: 30 minutes and 15 minutes">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Select 3 options: 1 hour, 30 minutes, and 15 minutes" time="11.7210" classname="Filter popup - Select 3 options: 1 hour, 30 minutes, and 15 minutes">
+    </testcase>
+    <testcase name="Filter Popup Filter popup - Select date range" time="12.6650" classname="Filter popup - Select date range">
+    </testcase>
+  </testsuite>
+</testsuites>

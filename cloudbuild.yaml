@@ -1,0 +1,14 @@
+steps:
+  - name: 'node:18.16.0'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        apt-get update && apt-get install -y xvfb libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth
+        curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+        apt-get install -y nodejs npm
+        npm install -g cypress
+        npm install -g ts-node
+        npm install
+        npm install -g npx
+        npx cypress run 
